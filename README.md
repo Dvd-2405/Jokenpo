@@ -32,7 +32,8 @@ Um jogo interativo de Pedra, Papel e Tesoura com interface moderna, animações 
 
 ## 🌐 Acesse o projeto
 
-👉 https://SEU-USUARIO.github.io/jokenpo-pro/
+https://github.com/Dvd-2405/Test_JoKenPo
+
 
 ---
 
