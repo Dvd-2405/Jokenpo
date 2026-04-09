@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jokenpo</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="title">JOKENPÔ</h1>
+
+        <div class="scoreboard">
+            <div class="score-block">
+                <span class="score-label">VOCÊ</span>
+                <span class="score-number" id="human-score">0</span>
+            </div>
+            <div class="score-block draw">
+                <span class="score-label">EMPATES</span>
+                <span class="score-number" id="draw-score">0</span>
+            </div>
+            <div class="score-block">
+                <span class="score-label">MÁQUINA</span>
+                <span class="score-number" id="machine-score">0</span>
+            </div>
+        </div>
+
+        <div class="arena">
+            <div class="player-side">
+                <span class="player-label">VOCÊ</span>
+                <span class="player-choice" id="human-choice">❓</span>
+            </div>
+
+            <div class="vs-block">
+                <span class="vs-text" id="result-text">VS</span>
+            </div>
+
+            <div class="player-side">
+                <span class="player-label">MÁQUINA</span>
+                <span class="player-choice" id="machine-choice">❓</span>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="rock">
+                <span class="btn-emoji">✊</span>
+                <span class="btn-label">PEDRA</span>
+            </button>
+            <button id="paper">
+                <span class="btn-emoji">🖐</span>
+                <span class="btn-label">PAPEL</span>
+            </button>
+            <button id="scissors">
+                <span class="btn-emoji">✌️</span>
+                <span class="btn-label">TESOURA</span>
+            </button>
+        </div>
+
+        <button id="reset">↺ REINICIAR</button>
+
+    </div>
+
+    <script src="./animacao.js"></script>
+</body>
+
+</html>
