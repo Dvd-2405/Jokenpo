@@ -32,9 +32,9 @@ Um jogo interativo de Pedra, Papel e Tesoura com interface moderna, animações 
 
 ## 🌐 Acesse o projeto
 
-https://dvd-2405.github.io/Jokenpo/
+👉 [Clique aqui para acessar](https://dvd-2405.github.io/Jokenpo/)
 
-
+---
 ---
 
 ## 📌 Aprendizados
